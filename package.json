@@ -1,0 +1,46 @@
+{
+  "name": "manifestNpmPRs",
+  "version": "4.3.0",
+  "description": "Test manifest for testing PR generation",
+  "private": false,
+  "license": "MIT",
+  "author": "Jose Gomez <jgomez@soos.io>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PackageAware/automated-integration-tests.git"
+  },
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "main": "./main.js",
+  "browser": "./dist/main.min.js",
+  "types": "./index.d.ts",
+  "files": [
+    "dist",
+    "lib",
+    "excel.js",
+    "LICENSE",
+    "README.md",
+    "README_zh.md",
+    "index.ts",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "npm run test:full",
+    "clean-build": "npm run clean && npm run build",
+    "clean": "rm -rf build/ && rm -rf dist",
+  },
+  "keywords": [
+    "split",
+    "pageSetup"
+  ],
+  "dependencies": {
+    "gatsby-telemetry": "1.10.2",
+    "jsonify": "0.0.0", 
+    "util-promisify": "1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/PackageAware/automated-integration-tests/issues"
+  },
+  "homepage": "https://github.com/PackageAware/automated-integration-tests#readme"
+}
