@@ -2,7 +2,7 @@ source :gemcutter
 source "http://gems.github.com/"
 
 gem "gas2", "0.1.8"
-gem "jfoundry", "0.1.7"
+gem "cfoundry", "4.7.2.rc1"
 gem "rubyzip", "0.9.9"
 
 platforms :ruby_18 do
