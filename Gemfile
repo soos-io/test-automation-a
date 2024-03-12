@@ -1,7 +1,7 @@
 source :gemcutter
 source "http://gems.github.com/"
 
-gem "gas2", "0.1.8"
+gem "gas", "0.1.0"
 gem "jfoundry", "0.1.7"
 gem "rubyzip", "0.9.9"
 
