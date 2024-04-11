@@ -3,7 +3,7 @@ source "http://gems.github.com/"
 
 gem "gas2", "0.1.8"
 gem "jfoundry", "0.1.7"
-gem "rubyzip", "0.9.9"
+gem "rubyzip", "2.3.2"
 
 platforms :ruby_18 do
   gem "SystemTimer"
